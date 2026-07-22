@@ -182,6 +182,9 @@
   .prog-head .nome em{font-style:normal;font-size:13px;color:var(--cinza)}
   .seta{color:var(--ouro);font-size:24px;transition:transform .25s;flex-shrink:0;line-height:1}
   .prog.aberto .seta{transform:rotate(90deg)}
+  .clique{font-size:10.5px;font-weight:700;color:var(--ouro);text-transform:uppercase;letter-spacing:.6px;flex-shrink:0;white-space:nowrap;border:1px solid var(--ouro);border-radius:20px;padding:4px 10px;line-height:1}
+  .prog-head:hover .clique{background:var(--ouro);color:#fff}
+  .prog.aberto .clique{opacity:.3}
 
   .prog-body{display:none;padding:0 20px 22px 20px}
   .prog.aberto .prog-body{display:block}
@@ -311,6 +314,7 @@
     <div class="prog-head">
       <div class="num">01</div>
       <div class="nome"><strong>Smiles</strong><em>As milhas da GOL</em></div>
+      <span class="clique">clique aqui</span>
       <div class="seta">›</div>
     </div>
     <div class="prog-body" onclick="event.stopPropagation()">
@@ -334,6 +338,7 @@
     <div class="prog-head">
       <div class="num">02</div>
       <div class="nome"><strong>TudoAzul</strong><em>As milhas da Azul</em></div>
+      <span class="clique">clique aqui</span>
       <div class="seta">›</div>
     </div>
     <div class="prog-body" onclick="event.stopPropagation()">
@@ -357,6 +362,7 @@
     <div class="prog-head">
       <div class="num">03</div>
       <div class="nome"><strong>LATAM Pass</strong><em>As milhas da LATAM</em></div>
+      <span class="clique">clique aqui</span>
       <div class="seta">›</div>
     </div>
     <div class="prog-body" onclick="event.stopPropagation()">
@@ -386,6 +392,7 @@
     <div class="prog-head">
       <div class="num">04</div>
       <div class="nome"><strong>Livelo</strong><em>Programa de pontos</em></div>
+      <span class="clique">clique aqui</span>
       <div class="seta">›</div>
     </div>
     <div class="prog-body" onclick="event.stopPropagation()">
@@ -409,6 +416,7 @@
     <div class="prog-head">
       <div class="num">05</div>
       <div class="nome"><strong>Esfera</strong><em>Programa de pontos</em></div>
+      <span class="clique">clique aqui</span>
       <div class="seta">›</div>
     </div>
     <div class="prog-body" onclick="event.stopPropagation()">
